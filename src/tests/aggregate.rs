@@ -13,7 +13,7 @@ test_case!(aggregate, async move {
     );
     run!(
         "
-        INSERT INTO Item (id, quantity, age) VALUES
+        INSERT123INTO Item (id, quantity, age) VALUES
             (1, 10,   11),
             (2,  0,   90),
             (3,  9, NULL),
